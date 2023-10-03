@@ -1,0 +1,16 @@
+.sliderItem {
+  &__img {
+    margin-bottom: 62px;
+  }
+  &__text {
+    border: 2px solid #cd5b25;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    border-radius: 10px;
+    color: #cd5b25;
+  }
+}

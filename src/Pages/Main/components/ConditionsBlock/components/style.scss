@@ -1,0 +1,55 @@
+.conditionsBlockItem {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  &__num {
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 182px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #cd5b25;
+  }
+  &__box {
+    &--text {
+      max-width: 450px;
+      font-size: 26px;
+      font-weight: 300;
+      line-height: 33px;
+      letter-spacing: 0.065em;
+      margin-bottom: 10px;
+    }
+  }
+  &__price {
+    width: 325px;
+    height: 309px;
+    border: 1px solid #cd5b25;
+    border-radius: 10px;
+    padding: 25px;
+    &-price {
+      text-align: right;
+      margin-bottom: 20px;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 52px;
+      color: #cd5b25;
+    }
+    &-time {
+      color: #cd5b25;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 31px;
+      letter-spacing: 0em;
+      margin-bottom: 30px;
+    }
+    &-text {
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 31px;
+      letter-spacing: -0.05em;
+      opacity: 50%;
+    }
+  }
+}

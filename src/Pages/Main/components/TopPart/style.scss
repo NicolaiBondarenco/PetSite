@@ -1,0 +1,74 @@
+%titleWords {
+  color: black;
+  font-weight: 700;
+  font-size: 113px;
+  line-height: 147px;
+  letter-spacing: 6px;
+}
+%paragraph {
+  color: black;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 33px;
+}
+
+.topPart {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  border-bottom: 1.5px solid #cd5b25;
+  padding-bottom: 82px;
+  &__desc {
+    @extend %paragraph;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  &__img {
+    max-width: 797px;
+    border-radius: 10px;
+  }
+  &__title {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    &-fst {
+      @extend %titleWords;
+      margin-right: 40px;
+    }
+    &-sc {
+      @extend %titleWords;
+      color: #cd5b25;
+    }
+    &-thd {
+      @extend %titleWords;
+      color: #fff;
+    }
+  }
+  &__btn {
+    margin-bottom: 122px;
+    max-width: 280px;
+    background-color: transparent;
+    border: 2px solid #cd5b25;
+    border-radius: 10px;
+    padding: 20px 60px;
+    color: #cd5b25;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+    &:hover {
+      box-shadow: 1px 4px 13px 0px rgba(34, 60, 80, 0.2);
+    }
+  }
+}
+.lg {
+  max-width: 709px;
+  margin-bottom: 53px;
+}
+.sm {
+  max-width: 564px;
+  margin-bottom: 64px;
+}
